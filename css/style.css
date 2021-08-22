@@ -1,0 +1,147 @@
+:root {
+  --heading-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --color-for-colored-backgraund: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--primary-text-color);
+  background-color: var(--color-for-colored-backgraund);
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+h2,
+h3 {
+  color: var(--heading-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* стили шапки */
+
+.logo-header,
+.logo-footer {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-header .first-part {
+  color: var(--accent-color);
+}
+
+.logo-header .second-part {
+  color: #000000;
+}
+
+.page-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+.nav-list .link {
+  color: var(--heading-text-color);
+}
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.auth-nav .link:active {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+/* стили героя */
+
+.text-hero {
+  background-color: #2f303a;
+  color: var(--color-for-colored-backgraund);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  color: var(--color-for-colored-backgraund);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.btn:hover,
+.btn:focus {
+  color: #188ce8;
+}
+
+/* преимущества */
+.benefits,
+.work {
+  background-color: #e5e5e5;
+}
+.benefits .item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+/* чем мы занимаемся - work */
+
+/* наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--heading-text-color);
+}
+/* футер */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer .first-part {
+  color: var(--accent-color);
+}
+
+.logo-footer .second-part {
+  color: var(--color-for-colored-backgraund);
+}
+.address-text {
+  color: var(--color-for-colored-backgraund);
+}
+.address .link {
+  color: rgba (var(--color-for-colored-backgraund), 0, 6);
+}
