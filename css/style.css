@@ -77,7 +77,6 @@ h2 {
 /* стили героя */
 
 .text-hero {
-  background-color: #2f303a;
   color: var(--color-for-colored-backgraund);
   font-weight: 900;
   font-size: 44px;
@@ -85,6 +84,9 @@ h2 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.hero-section {
+  background-color: #2f303a;
 }
 .main-btn {
   color: var(--color-for-colored-backgraund);
@@ -102,13 +104,13 @@ h2 {
 }
 .main-btn:hover,
 .main-btn:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 /* преимущества */
 .benefits,
 .work {
-  background-color: #e5e5e5;
+  background-color: var(--color-for-colored-backgraund);
 }
 .benefits .item {
   font-weight: 700;
@@ -130,10 +132,17 @@ h2 {
   text-align: center;
   color: var(--heading-text-color);
 }
+.worker-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
 /* футер */
+
 .footer {
   background-color: #2f303a;
 }
+
 .logo-footer .first-part {
   color: var(--accent-color);
 }
@@ -141,11 +150,14 @@ h2 {
 .logo-footer .second-part {
   color: var(--color-for-colored-backgraund);
 }
+.address {
+  font-style: normal;
+}
 .address-text {
   color: var(--color-for-colored-backgraund);
 }
 .address .link {
-  color: rgba (var(--color-for-colored-backgraund), 0, 6);
+  color: rgba (var(--color-for-colored-backgraund), 0.6);
 }
 
 /* страница портфолио */
