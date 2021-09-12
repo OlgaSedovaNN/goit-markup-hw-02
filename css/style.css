@@ -238,9 +238,13 @@ ul {
   margin-bottom: 10px;
 }
 .benefits .icon {
+  display: flex;
   background-color: var(--secondary-background-color);
-  padding: 25px 100px;
   margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
 }
 /* чем мы занимаемся - work */
 .work {
@@ -367,6 +371,7 @@ ul {
 }
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 .block-address {
   margin-right: 70px;
